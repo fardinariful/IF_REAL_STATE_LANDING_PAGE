@@ -83,9 +83,10 @@
           </div>
           <!-- BANNER END -->
     </header>
-
-    <main class="px-36 py-12 bg-[#F4F4F4] manrop_font">
-      
+<!-- bg-[#F4F4F4] -->
+ <!-- class="px-36 py-12 bg-[#F4F4F4] manrop_font" -->
+    <main >
+     <div class="px-36 py-12 bg-[#F4F4F4] manrop_font">
       <div class="">
         <img src="./images/Vector.png" alt="">
       </div>
@@ -284,9 +285,10 @@
 
 
        </div>
+     </div>
 
      <!-- Latest protfolio -->
-      <div class="">
+      <div class="px-36 py-12">
         <div class="flex justify-center">
           <button class="flex flex-row  gap-1 items-center bg-[#ABEF5F33] p-4 rounded-2xl mt-28 font-bold text-[#494949] text-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
@@ -304,7 +306,7 @@
     
          <div class=" flex flex-row gap-4 mt-6">
          <!-- img1 -->
-         <div class="bg-[#FFF] p-6 flex flex-row gap-6 rounded-2xl">
+         <div class="bg-[#FFF] p-6 flex flex-row gap-6 rounded-2xl border border-[#E9E9E9]">
                <img src="./images/img1.png" alt="">
                <div>
                 <p class="text-[#494949] font-extrabold text-2xl">Commercial</p>
@@ -317,19 +319,19 @@
          </div>
     
          <!-- img2 -->
-         <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl">
+         <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl border border-[#E9E9E9]">
           <img src="./images/img2.png" alt="">
          </div>
         </div>
     
         <div class="flex flex-row gap-2 mt-6">
           <!-- img-3 -->
-          <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl w-1/3">
+          <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl w-1/3 border border-[#E9E9E9]">
             <img src="./images/img3.png" alt="">
           </div>
     
     <!-- img-4 -->
-            <div class="bg-[#FFF] p-6 flex flex-row gap-6 rounded-2xl w-full  ">
+            <div class="bg-[#FFF] p-6 flex flex-row gap-6 rounded-2xl w-full  border border-[#E9E9E9]">
               <img src="./images/img1.png" alt="">
               <div>
                <p class="text-[#494949] font-extrabold text-2xl">Commercial</p>
@@ -342,7 +344,7 @@
        
           </div>
     <!-- img-5 -->
-            <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl w-1/3">
+            <div class="bg-[#FFF] flex flex-row justify-center p-6 rounded-2xl w-1/3 border border-[#E9E9E9]">
               <img src="./images/img5.png" alt="">
             </div>
     
@@ -351,136 +353,140 @@
       </div>
 
     <!-- Articles and News -->
-    <div class="flex justify-center">
-      <button class="flex flex-row  gap-1 items-center bg-[#ABEF5F33] p-2 rounded-2xl mt-28 font-bold text-[#494949] text-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
-          <path d="M16.5564 9.00278H1.00002" stroke="#494949" stroke-width="1.5" stroke-linecap="round"/>
-          <path d="M12.9279 4.14623C12.9279 4.14623 17.2472 7.79392 17.2472 9.00301C17.2472 10.212 12.9278 13.8597 12.9278 13.8597" stroke="#494949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+     <div class="bg-[#F4F4F4] px-36 py-12">
+      <div class="flex justify-center ">
+        <button class="flex flex-row  gap-1 items-center bg-[#ABEF5F33] p-2 rounded-2xl mt-28 font-bold text-[#494949] text-center">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+            <path d="M16.5564 9.00278H1.00002" stroke="#494949" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M12.9279 4.14623C12.9279 4.14623 17.2472 7.79392 17.2472 9.00301C17.2472 10.212 12.9278 13.8597 12.9278 13.8597" stroke="#494949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          Rinterio News</button>
+       </div>
+  
+       <div class="flex flex-col justify-center items-center mt-6">
+        <p class="text-4xl font-bold text-[#212121]">Read Our Articles and News</p>
+       <p class="text-center text-[#494949] mt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+       
+       </div>
+  
+       <div class="flex flex-row justify-evenly gap-6 mt-8">
+  <!-- Articles 1 -->
+  <div class="card bg-base-100 w-96 shadow-xl ">
+    <figure class="px-8 pt-8 ">
+      <img
+        src="./images/article1.png"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body flex flex-row gap-4">
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Rinterio News</button>
-     </div>
-
-     <div class="flex flex-col justify-center items-center mt-6">
-      <p class="text-4xl font-bold text-[#212121]">Read Our Articles and News</p>
-     <p class="text-center text-[#494949] mt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
-     
-     </div>
-
-     <div class="flex flex-row justify-evenly gap-6 mt-8">
-<!-- Articles 1 -->
-<div class="card bg-base-100 w-96 shadow-xl ">
-  <figure class="px-8 pt-8 ">
-    <img
-      src="./images/article1.png"
-      class="rounded-xl" />
-  </figure>
-  <div class="card-body flex flex-row gap-4">
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-
-      <p class="text-[#737373] font-medium">July14, 2024</p>
+  
+        <p class="text-[#737373] font-medium">July14, 2024</p>
+      </div>
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
+          <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <p class="text-[#737373] font-medium">By Admin</p>
+      </div>
     </div>
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
-        <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <p class="text-[#737373] font-medium">By Admin</p>
+    <div class="card-actions -mt-10 p-6">
+      <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
+      <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
+      <div class="flex gap-3 mt-5">
+        <button class="text-[#212121] font-extrabold text-xl">Read more</button>
+        <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
     </div>
-  </div>
-  <div class="card-actions -mt-10 p-6">
-    <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
-    <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
-    <div class="flex gap-3 mt-5">
-      <button class="text-[#212121] font-extrabold text-xl">Read more</button>
-      <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
-  </div>
+    
+    </div>
+  
   
   </div>
-
-
-</div>
- <!-- Articls -2 -->
-<div class="card bg-base-100 w-96 shadow-xl ">
-  <figure class="px-8 pt-8 ">
-    <img
-      src="./images/article2.png"
-      class="rounded-xl" />
-  </figure>
-  <div class="card-body flex flex-row gap-4">
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-
-      <p class="text-[#737373] font-medium">July14, 2024</p>
+   <!-- Articls -2 -->
+  <div class="card bg-base-100 w-96 shadow-xl ">
+    <figure class="px-8 pt-8 ">
+      <img
+        src="./images/article2.png"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body flex flex-row gap-4">
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+  
+        <p class="text-[#737373] font-medium">July14, 2024</p>
+      </div>
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
+          <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <p class="text-[#737373] font-medium">By Admin</p>
+      </div>
     </div>
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
-        <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <p class="text-[#737373] font-medium">By Admin</p>
+    <div class="card-actions -mt-10 p-6">
+      <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
+      <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
+      <div class="flex gap-3 mt-5">
+        <button class="text-[#212121] font-extrabold text-xl">Read more</button>
+        <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
     </div>
-  </div>
-  <div class="card-actions -mt-10 p-6">
-    <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
-    <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
-    <div class="flex gap-3 mt-5">
-      <button class="text-[#212121] font-extrabold text-xl">Read more</button>
-      <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
-  </div>
-
-  </div>
-</div>
- <!-- Articls -3 -->
-<div class="card bg-base-100 w-96 shadow-xl ">
-  <figure class="px-8 pt-8 ">
-    <img
-      src="./images/article3.png"
-      class="rounded-xl" />
-  </figure>
-  <div class="card-body flex flex-row gap-4">
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-        <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
-
-      <p class="text-[#737373] font-medium">July14, 2024</p>
-    </div>
-    <div class="flex flex-row  gap-2">
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
-        <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
-        <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
-      </svg>
-      <p class="text-[#737373] font-medium">By Admin</p>
+  
     </div>
   </div>
-  <div class="card-actions -mt-10 p-6">
-    <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
-    <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
-    <div class="flex gap-3 mt-5">
-      <button class="text-[#212121] font-extrabold text-xl">Read more</button>
-      <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
+   <!-- Articls -3 -->
+  <div class="card bg-base-100 w-96 shadow-xl ">
+    <figure class="px-8 pt-8 ">
+      <img
+        src="./images/article3.png"
+        class="rounded-xl" />
+    </figure>
+    <div class="card-body flex flex-row gap-4">
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M18 2.46426V4.46426M6 2.46426V4.46426" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M11.9955 13.4643H12.0045M11.9955 17.4643H12.0045M15.991 13.4643H16M8 13.4643H8.00897M8 17.4643H8.00897" stroke="#737373" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3.5 8.46426H20.5" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M2.5 12.7075C2.5 8.3502 2.5 6.17154 3.75212 4.8179C5.00424 3.46426 7.01949 3.46426 11.05 3.46426H12.95C16.9805 3.46426 18.9958 3.46426 20.2479 4.8179C21.5 6.17154 21.5 8.3502 21.5 12.7075V13.2211C21.5 17.5784 21.5 19.757 20.2479 21.1107C18.9958 22.4643 16.9805 22.4643 12.95 22.4643H11.05C7.01949 22.4643 5.00424 22.4643 3.75212 21.1107C2.5 19.757 2.5 17.5784 2.5 13.2211V12.7075Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M3 8.46426H21" stroke="#737373" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+  
+        <p class="text-[#737373] font-medium">July14, 2024</p>
+      </div>
+      <div class="flex flex-row  gap-2">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25" viewBox="0 0 24 25" fill="none">
+          <path d="M12.0063 22.4643C17.5292 22.4643 22.0063 17.9871 22.0063 12.4643C22.0063 6.94142 17.5292 2.46426 12.0063 2.46426C6.4835 2.46426 2.00635 6.94142 2.00635 12.4643C2.00635 17.9871 6.4835 22.4643 12.0063 22.4643Z" stroke="#737373" stroke-width="1.5"/>
+          <path d="M7.50635 17.4643C9.83805 15.0221 14.1495 14.9071 16.5063 17.4643M14.5014 9.96426C14.5014 11.345 13.3805 12.4643 11.9978 12.4643C10.6152 12.4643 9.49432 11.345 9.49432 9.96426C9.49432 8.58355 10.6152 7.46426 11.9978 7.46426C13.3805 7.46426 14.5014 8.58355 14.5014 9.96426Z" stroke="#737373" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <p class="text-[#737373] font-medium">By Admin</p>
+      </div>
+    </div>
+    <div class="card-actions -mt-10 p-6">
+      <p class="text-xl font-extrabold text-[#494949]">How to choose the furniture right  of your home.</p>
+      <p class="text-[#737373] font-medium">The barn house captivates with its blend of rustic charm and modern. </p>
+      <div class="flex gap-3 mt-5">
+        <button class="text-[#212121] font-extrabold text-xl">Read more</button>
+        <img class="bg-[#ABEF5F] p-2 rounded-full" src="./images/Group 1.png" alt="">  
+    </div>
+    </div>
   </div>
-  </div>
-</div>
+  
+       </div>
 
      </div>
+   
      
 
     </main>
@@ -493,10 +499,10 @@
           <path d="M16.5564 9.00278H1.00002" stroke="#494949" stroke-width="1.5" stroke-linecap="round"/>
           <path d="M12.9279 4.14623C12.9279 4.14623 17.2472 7.79392 17.2472 9.00301C17.2472 10.212 12.9278 13.8597 12.9278 13.8597" stroke="#494949" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
         </svg>
-        Rinterio News</button>
+        Let’s Connect</button>
      </div>
      <div class="flex flex-col justify-center items-center mt-6">
-      <p class="text-4xl font-bold text-[#212121]">Read Our Articles and News</p>
+      <p class="text-4xl font-bold text-[#212121]">Let’s Discuss Next Project</p>
      <p class="text-center text-[#494949] mt-6">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
      
      </div>
@@ -530,7 +536,28 @@
 
    </div>
  </div>
- 
-    <footer></footer>
+
+    <footer class="bg-[#1C1C1C]">
+      <div class="flex flex-col justify-center items-center pb-20">
+        <div class="flex gap-2 mt-24">
+          <img class="bg-[#ABEF5F] p-3 rounded-full" src="./images/Group 1.png" alt="">  
+          <p class="text-[#E9E9E9] text-3xl font-extrabold ">Rinterio</p>
+      </div>
+      <p class="font-medium text-[#737373] text-center mt-4">The barn house captivates with its blend of rustic charm and modern sophistication,<br> featuring weathered wood, sleek metal accents.</p>
+
+      <ul class="flex flex-row justify-between gap-32 mt-12 text-[#E9E9E9] font-medium">
+        <li>Home</li>
+        <li>Service</li>
+        <li>Portfolio</li>
+        <li>Blogs</li>
+        <li>Connect Us</li>
+      </ul>
+       
+      <div class="btn flex flex-row items-center bg-[#ABEF5F] rounded-3xl p-2 gap-1 mt-12">
+        <a class="text-[#1C1C1C] font-extrabold ">Book Consult</a>
+        <img class="bg-[#1C1C1C] p-1 rounded-full" src="./images/Group 1 (1).png" alt="">
+      </div>
+      </div>
+    </footer>
 </body>
 </html>
